@@ -28,28 +28,38 @@ int main() {
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
 
-    int casabispo = 0, casatorre, casarainha, bispo, torre, rainha;
+    // Identificadores e inicio do Desafio Xadrez
+    int casabispo = 0, casatorre = 0, casarainha = 0;
     printf("***Desafio Xadrez***\n");
-    printf("\n");
-    printf("Torre\n");
 
+    // Na linha abaixo a identificação de qual peça está sendo movimentada
+    printf("\n");
+    printf("Torre:\n");
+
+    // Uso da estrutura de repetição for para a movimentação da Torre
     for (casatorre = 0; casatorre <= 5; casatorre++) {
     printf("Direita\n");
     }
 
     printf("\n");
-    printf("Bispo\n");
+    printf("Bispo:\n");
 
-    while (casabispo <= 5);
+    // Uso da estrutura de repetição while para a movimentação da Torre
+    while (casabispo <= 5)
     {
-        casabispo++;
-    printf("5 casas na diagonal superior direita\n");
+    printf("Diagonal superior direita\n");
+    casabispo++;
     }
 
+    printf("\n");
+    printf("Rainha:\n");
+
+    // Uso da estrutura de repetição do-while para a movimentação da Torre
     do
     {
-    printf("8 casas para a esquerda\n");
-    } while (casarainha = 0); casarainha < 8; casarainha++;
+    printf("Esquerda\n");
+    casarainha++;
+    } while (casarainha <= 8);
     
 
     return 0;
